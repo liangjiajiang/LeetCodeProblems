@@ -27,7 +27,7 @@ public class LongestSubstringWithoutRepeatTest {
 
     @Test
     public void testLongestSubstringWhenWholeStringHasOtherLetterBetweenARepectThenAnswerShouldBeWholeStringAndInBetweenRepeat() {
-        Assert.assertEquals("Answer should be string length", LongestSubstringWithoutRepeat.lengthOfLongestSubstring( "dvdf"), 3);
+        Assert.assertEquals("Answer should be string length", LongestSubstringWithoutRepeat.lengthOfLongestSubstring("dvdf"), 3);
     }
 
     @Test

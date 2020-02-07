@@ -7,10 +7,10 @@ public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result, counter;
         result = counter = null;
-        int remainder , val;
+        int remainder, val;
         remainder = val = 0;
-        while(null != l1 || null != l2){
-            if(null != l1 && null != l2){
+        while (null != l1 || null != l2) {
+            if (null != l1 && null != l2) {
                 val = val + l1.val + l2.val + remainder;
                 l2 = l2.next;
                 l1 = l1.next;
@@ -21,13 +21,13 @@ public class AddTwoNumbers {
                 val = val + l2.val + remainder;
                 l2 = l2.next;
             }
-            if(val >= 10){
+            if (val >= 10) {
                 remainder = 1;
-                val-=10;
-            } else{
+                val -= 10;
+            } else {
                 remainder = 0;
             }
-            if(result == null){
+            if (result == null) {
                 counter = new ListNode(val);
                 result = counter;
             } else {
@@ -37,7 +37,7 @@ public class AddTwoNumbers {
             val = 0;
         }
 
-        if(remainder != 0){
+        if (remainder != 0) {
             counter.setNext(new ListNode(remainder));
         }
         return result;

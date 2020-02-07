@@ -32,6 +32,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
         Assert.assertEquals("basic case l2 has more nodes", AddTwoNumbers.addTwoNumbers(l1, l2), result3);
     }
+
     @Test
     public void testAddTwoNumberWhenLastValueHasARemainderThenReturnSumOfAnswers() {
         ListNode l1 = new ListNode(5).addToEnd(4).addToEnd(5);
@@ -49,13 +50,14 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
         Assert.assertEquals("Complex infinite carry over", AddTwoNumbers.addTwoNumbers(l1, l2), result5);
     }
+
     @Test
     public void testAddTwoNumberWhenL2IsLongerButHasOverFlowFromL1ThenReturnSumOfAnswers() {
         ListNode l1 = new ListNode(8).addToEnd(6);
         ListNode l2 = new ListNode(6).addToEnd(4).addToEnd(9);
         ListNode result6 = new ListNode(4).addToEnd(1).addToEnd(0).addToEnd(1);
-        AddTwoNumbers.addTwoNumbers(l1,l2).display();
-        Assert.assertEquals("Complex infinite carry over",AddTwoNumbers.addTwoNumbers(l1,l2),result6);
+        AddTwoNumbers.addTwoNumbers(l1, l2).display();
+        Assert.assertEquals("Complex infinite carry over", AddTwoNumbers.addTwoNumbers(l1, l2), result6);
     }
 
 }

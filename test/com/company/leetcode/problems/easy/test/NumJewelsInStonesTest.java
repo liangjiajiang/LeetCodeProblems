@@ -10,7 +10,7 @@ public class NumJewelsInStonesTest {
 
     @Test
     public void numJewelsInStones() {
-        assertEquals(NumJewelsInStones.numJewelsInStones("aA", "aAAbbbb"),3);
-        assertEquals(NumJewelsInStones.numJewelsInStones("z", "ZZ"),0);
+        assertEquals(NumJewelsInStones.AllStreamsNumJewelsInStones("aA", "aAAbbbb"), 3);
+        assertEquals(NumJewelsInStones.AllStreamsNumJewelsInStones("z", "ZZ"), 0);
     }
 }
