@@ -1,7 +1,6 @@
 package com.company.leetcode.problems.medium.test;
 
 import com.company.leetcode.problems.medium.StringToInteger;
-import com.company.leetcode.problems.medium.ZigZagConversion;
 import org.junit.Assert;
 import org.junit.Test;
 
