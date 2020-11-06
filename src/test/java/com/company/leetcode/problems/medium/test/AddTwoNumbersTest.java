@@ -1,7 +1,7 @@
 package com.company.leetcode.problems.medium.test;
 
-import com.company.leetcode.problems.medium.AddTwoNumbers;
 import com.company.leetcode.problems.objects.ListNode;
+import com.company.leetcode.problems.medium.AddTwoNumbers;
 import org.junit.Assert;
 import org.junit.Test;
 

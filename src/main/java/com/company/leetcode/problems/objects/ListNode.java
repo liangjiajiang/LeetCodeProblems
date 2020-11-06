@@ -2,6 +2,9 @@ package com.company.leetcode.problems.objects;
 
 import java.util.Objects;
 
+/**
+ * Basic Node Data Structure.
+ */
 public class ListNode {
     public int val;
     public ListNode next;

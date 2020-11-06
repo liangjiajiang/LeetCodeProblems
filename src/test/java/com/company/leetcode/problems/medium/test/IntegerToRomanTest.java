@@ -1,6 +1,5 @@
 package com.company.leetcode.problems.medium.test;
 
-import com.company.leetcode.problems.medium.ContainerOfWater;
 import com.company.leetcode.problems.medium.IntegerToRoman;
 import org.junit.Assert;
 import org.junit.Test;
