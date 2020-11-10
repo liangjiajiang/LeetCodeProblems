@@ -2,7 +2,7 @@ package com.company.leetcode.problems.medium.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.medium.StringToInteger;
+import com.company.leetcode.problems.medium.problem8.StringToInteger;
 
 import org.junit.jupiter.api.Test;
 
