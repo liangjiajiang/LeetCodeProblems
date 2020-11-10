@@ -2,7 +2,7 @@ package com.company.leetcode.problems.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.easy.PalindromeNumber;
+import com.company.leetcode.problems.easy.problem9.PalindromeNumber;
 
 import org.junit.jupiter.api.Test;
 

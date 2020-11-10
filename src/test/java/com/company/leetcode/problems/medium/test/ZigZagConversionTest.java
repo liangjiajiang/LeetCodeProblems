@@ -2,7 +2,7 @@ package com.company.leetcode.problems.medium.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.medium.ZigZagConversion;
+import com.company.leetcode.problems.medium.problem6.ZigZagConversion;
 
 import org.junit.jupiter.api.Test;
 

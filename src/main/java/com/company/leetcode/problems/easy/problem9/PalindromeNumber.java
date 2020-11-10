@@ -1,4 +1,4 @@
-package com.company.leetcode.problems.easy;
+package com.company.leetcode.problems.easy.problem9;
 
 public class PalindromeNumber {
 

@@ -2,7 +2,7 @@ package com.company.leetcode.problems.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.easy.ReverseInteger;
+import com.company.leetcode.problems.easy.problem7.ReverseInteger;
 
 import org.junit.jupiter.api.Test;
 

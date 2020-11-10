@@ -1,12 +1,11 @@
 package com.company.leetcode.problems.medium.test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import com.company.leetcode.problems.medium.problem2.AddTwoNumbers;
 import com.company.leetcode.problems.objects.ListNode;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import com.company.leetcode.problems.medium.AddTwoNumbers;
 
 
 public class AddTwoNumbersTest {

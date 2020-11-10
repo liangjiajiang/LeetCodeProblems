@@ -2,7 +2,7 @@ package com.company.leetcode.problems.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-import com.company.leetcode.problems.easy.TwoSum;
+import com.company.leetcode.problems.easy.problem1.TwoSum;
 
 import org.junit.jupiter.api.Test;
 

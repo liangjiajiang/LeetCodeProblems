@@ -1,4 +1,4 @@
-package com.company.leetcode.problems.medium;
+package com.company.leetcode.problems.medium.problem8;
 
 public class StringToInteger {
 

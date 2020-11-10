@@ -2,7 +2,7 @@ package com.company.leetcode.problems.easy.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.easy.NumJewelsInStones;
+import com.company.leetcode.problems.easy.problem771.NumJewelsInStones;
 
 import org.junit.jupiter.api.Test;
 

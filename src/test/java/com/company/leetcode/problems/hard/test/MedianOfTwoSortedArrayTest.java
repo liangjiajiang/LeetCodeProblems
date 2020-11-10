@@ -2,7 +2,7 @@ package com.company.leetcode.problems.hard.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.company.leetcode.problems.hard.MedianOfTwoSortedArray;
+import com.company.leetcode.problems.hard.problem4.MedianOfTwoSortedArray;
 
 import org.junit.jupiter.api.Test;
 
