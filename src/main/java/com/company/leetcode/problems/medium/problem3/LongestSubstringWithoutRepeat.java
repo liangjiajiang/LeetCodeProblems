@@ -1,4 +1,4 @@
-package com.company.leetcode.problems.easy;
+package com.company.leetcode.problems.medium.problem3;
 
 import java.util.*;
 import java.util.stream.Collectors;

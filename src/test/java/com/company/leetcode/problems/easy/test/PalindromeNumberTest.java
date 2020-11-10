@@ -1,9 +1,11 @@
 package com.company.leetcode.problems.easy.test;
 
-import com.company.leetcode.problems.easy.PalindromeNumber;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import com.company.leetcode.problems.easy.PalindromeNumber;
+
+import org.junit.jupiter.api.Test;
+
 
 public class PalindromeNumberTest {
 

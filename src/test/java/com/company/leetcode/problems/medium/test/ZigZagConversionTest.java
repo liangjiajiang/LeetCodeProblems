@@ -1,15 +1,18 @@
 package com.company.leetcode.problems.medium.test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import com.company.leetcode.problems.medium.ZigZagConversion;
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
+
 
 public class ZigZagConversionTest {
     @Test
     public void testAddTwoNumberWhenBothListAreEqualThenReturnSumOfAnswers() {
-        Assert.assertEquals("Anything good", ZigZagConversion.convert("paypalishiring", 3), "pahnaplsiigyir");
-        Assert.assertEquals("Anything good", ZigZagConversion.convert("paypalishiring", 4), "pinalsigyahrpi");
-        Assert.assertEquals("Anything good", ZigZagConversion.convert("A", 1), "A");
+        assertEquals(ZigZagConversion.convert("paypalishiring", 3), "pahnaplsiigyir");
+        assertEquals(ZigZagConversion.convert("paypalishiring", 4), "pinalsigyahrpi");
+        assertEquals(ZigZagConversion.convert("A", 1), "A");
     }
 
 

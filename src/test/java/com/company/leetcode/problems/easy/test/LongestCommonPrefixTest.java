@@ -1,9 +1,10 @@
 package com.company.leetcode.problems.easy.test;
 
-import com.company.leetcode.problems.easy.LongestCommonPrefix;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import com.company.leetcode.problems.easy.problem14.LongestCommonPrefix;
+
+import org.junit.jupiter.api.Test;
 
 public class LongestCommonPrefixTest {
 

@@ -1,9 +1,13 @@
 package com.company.leetcode.problems.medium.test;
 
 import com.company.leetcode.problems.objects.ListNode;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import com.company.leetcode.problems.medium.AddTwoNumbers;
-import org.junit.Assert;
-import org.junit.Test;
+
 
 public class AddTwoNumbersTest {
     @Test
@@ -12,7 +16,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(5).addToEnd(6).addToEnd(4);
         ListNode result = new ListNode(7).addToEnd(0).addToEnd(8);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("Basic case equal number of nodes", AddTwoNumbers.addTwoNumbers(l1, l2), result);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result, "Basic case equal number of nodes");
     }
 
     @Test
@@ -21,7 +25,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(5).addToEnd(6).addToEnd(4);
         ListNode result2 = new ListNode(7).addToEnd(0).addToEnd(8).addToEnd(6);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("Basic case l1 has more nodes", AddTwoNumbers.addTwoNumbers(l1, l2), result2);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result2, "Basic case l1 has more nodes");
     }
 
     @Test
@@ -30,7 +34,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(5).addToEnd(6).addToEnd(4).addToEnd(6);
         ListNode result3 = new ListNode(7).addToEnd(0).addToEnd(8).addToEnd(6);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("basic case l2 has more nodes", AddTwoNumbers.addTwoNumbers(l1, l2), result3);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result3, "basic case l2 has more nodes");
     }
 
     @Test
@@ -39,7 +43,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(5).addToEnd(6).addToEnd(4);
         ListNode result4 = new ListNode(0).addToEnd(1).addToEnd(0).addToEnd(1);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("Complex equal nodes but has carry over", AddTwoNumbers.addTwoNumbers(l1, l2), result4);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result4, "Complex equal nodes but has carry over");
     }
 
     @Test
@@ -48,7 +52,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(5).addToEnd(6).addToEnd(4);
         ListNode result5 = new ListNode(0).addToEnd(1).addToEnd(0).addToEnd(0).addToEnd(0).addToEnd(1);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("Complex infinite carry over", AddTwoNumbers.addTwoNumbers(l1, l2), result5);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result5, "Complex infinite carry over");
     }
 
     @Test
@@ -57,7 +61,7 @@ public class AddTwoNumbersTest {
         ListNode l2 = new ListNode(6).addToEnd(4).addToEnd(9);
         ListNode result6 = new ListNode(4).addToEnd(1).addToEnd(0).addToEnd(1);
         AddTwoNumbers.addTwoNumbers(l1, l2).display();
-        Assert.assertEquals("Complex infinite carry over", AddTwoNumbers.addTwoNumbers(l1, l2), result6);
+        assertEquals(AddTwoNumbers.addTwoNumbers(l1, l2), result6, "Complex infinite carry over");
     }
 
 }
