@@ -1,4 +1,4 @@
-package com.company.leetcode.problems.easy.test;
+package com.company.leetcode.problems.medium.test;
 
 import com.company.leetcode.problems.medium.problem3.LongestSubstringWithoutRepeat;
 
