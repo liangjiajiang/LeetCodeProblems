@@ -8,7 +8,7 @@ public class ImplementStrStr {
         }
 
         for (int hsCharCounter = 0; hsCharCounter < haystack.length(); hsCharCounter++){
-            if (haystack.charAt(hsCharCounter) == needle.charAt(0) {
+            if (haystack.charAt(hsCharCounter) == needle.charAt(0)) {
                 if (checkMatch(haystack, needle, hsCharCounter)) {
                     return hsCharCounter;
                 }
